@@ -8,6 +8,6 @@
 30 + 20 = 50
 '''
 
-number = int(input("number1:"))
-number2 = int(input("number2:"))
+number = int(input("number1: "))
+number2 = int(input("number2: "))
 print(number, '+', number2, '=', number + number2 )

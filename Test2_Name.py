@@ -10,7 +10,7 @@ Magic
 My name is Lord Voldemort. I am 72 and my hobby is Magic.
 '''
 
-name = (input("name:"))
-age = int(input("age:"))
-hobi = (input("hobi:"))
-print('My name is', name, 'I am', age, 'and my hobby is', hobi)
+name = input("name: ")
+age = int(input("age: "))
+hobby = input("hobby: ")
+print('My name is', name + '. I am', age, 'and my hobby is', hobby + '.', sep=' ')
